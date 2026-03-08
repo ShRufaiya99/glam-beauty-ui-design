@@ -1,0 +1,510 @@
+/* ================ */
+/* common css start */
+/* ================ */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+body{
+    
+}
+.container{
+    margin: 0 auto;
+    max-width: 1320px;
+}
+ul,ol{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #222222;
+    transition: 0.3s;
+    text-decoration: none;
+}
+a:hover, a:focus{
+    color: #fff;
+    text-decoration: none;
+}
+p,a,ul,ol,li,h1,h2,h3,h4,h5,h6,img,span,form,input,.btn,.navbar,.pagination,.breadcrumb{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+/* ============== */
+/* common css end */
+/* ============== */
+
+/* ==================== */
+/* header section start */
+/* ==================== */
+/* header-sec coding start */
+.header-sec{
+    background: #8a5eb7;
+}
+/* header-sec coding end */
+
+/* header coding start */
+.header{
+    
+}
+.header h5{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 700px;
+    font-family: serif;
+    text-align: center;
+}
+/* header coding end */
+/* ================== */
+/* header section end */
+/* ================== */
+
+/* ==================== */
+/* navbar section start */
+/* ==================== */
+/* navbar-sec coding start */
+.navbar-sec{
+    
+}
+/* navbar-sec coding end */
+
+/* navbar coding start */
+.navbar{
+    width: 1320px;
+    display: flex;
+}
+/* navbar coding end */
+
+/* menu coding start */
+.menu{
+    width: 420px;
+    margin: 0 10px;
+}
+ul{
+    display: flex;
+    padding: 0 10px;
+}
+ul li{
+    margin: 50px 0;
+    padding: 0 10px;
+}
+ul li a{
+    color: #8a5eb7;
+}
+ul li a.active,
+ul li:hover a{
+    color: #8a5eb7;
+    border-bottom: 1px solid #8a5eb7;
+}
+.down{
+    font-size: 10px;
+}
+/* menu coding end */
+
+/* logo coding start */
+.logo{
+    width: 420px;
+    margin: 0 10px;
+    text-align: center;
+}
+.logo img{
+    width: 120px;
+    margin: 15px 0;
+}
+/* logo coding end */
+
+/* icon coding start */
+.icon{
+    width: 420px;
+    margin: 0 10px;
+    text-align: end;
+}
+.icon a{
+    font-size: 18px;
+    padding: 0 15px;
+    color: #8a5eb7;
+}
+.icon a .icn{
+    margin: 50px 0;
+}
+.icon a .icn:hover{
+    color: #8a5eb7;
+}
+/* icon coding end */
+/* ================== */
+/* navbar section end */
+/* ================== */
+
+/* ==================== */
+/* banner section start */
+/* ==================== */
+/* banner-sec coding start */
+.banner-sec{
+    height: 620px;
+    background: rgb(235, 213, 250);
+}
+/* banner-sec coding end */
+
+/* banner coding start */
+.banner{
+    height: 620px;
+    display: flex;
+    background: linear-gradient(#dcb6dd, #f2e8f2);
+}
+/* banner coding end */
+
+/* banner-text coding start */
+.banner-text{
+    width: 620px;
+    height: 600px;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.box {
+    --mask:
+    radial-gradient(50.4px at 50% calc(100% - 70.5px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(50.4px at 50% calc(100% + 40.5px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+.banner-text .banner-image{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 25px;
+}
+.banner-text h6{
+    font-size: 16px;
+    color: #7b59ab;
+    font-family: serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.banner-text h1{
+    font-size: 60px;
+    color: #7b59ab;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.banner-text a{
+    font-size: 25px;
+    font-family: serif;
+    padding: 10px 45px;
+    background: #7b59ab;
+    color: rgb(238, 217, 246);
+}
+.banner-text .lower-net{
+    width: 320px;
+    position: absolute;
+    margin: 450px 320px 0 0;
+}
+/* banner-text coding end */
+
+/* banner-image coding start */
+.banner-image{
+    width: 640px;
+    height: 600px;
+    display: flex;
+    margin: 0 10px;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-image .upper-net{
+    top: 0;
+    right: -30px;
+    width: 320px;
+    position: absolute;
+}
+.banner-image .banner-img{
+    width: 350px;
+    z-index: 9999;
+    border: 12px solid #fff;
+}
+.banner-image .banner-design-2{
+    top: 60px;
+    left: 85px;
+    width: 120px;
+    z-index: 9999;
+    position: absolute;
+}
+#banner-design-2{
+    padding: 18px 0;
+}
+.banner-image .banner-design-3{
+    top: 50px;
+    left: 475px;
+    width: 50px;
+    z-index: 9999;
+    position: absolute;
+}
+.banner-image .banner-design-4{
+    top: 500px;
+    left: 465px;
+    width: 100px;
+    position: absolute;
+}
+/* banner-image coding end */
+/* ================== */
+/* banner section end */
+/* ================== */
+
+/* ========================= */
+/* more-option section start */
+/* ========================= */
+/* more-option-sec coding start */
+.more-option-sec{
+    margin: 100px 0;
+}
+/* more-option-sec coding end */
+
+/* more-option coding start */
+.more-option{
+    width: 100%;
+    display: flex;
+}
+/* more-option coding end */
+
+/* option coding start */
+.option{
+    width: 300px;
+    height: 300px;
+    margin: 0 15px;
+    position: relative;
+    background: linear-gradient(145deg,rgba(123, 89, 171, 1) 25%, rgba(144, 102, 185, 1) 50%, rgba(204, 161, 214, 1) 100%);
+}
+.option h5{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 800;
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-family: serif;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+}
+.option .option-1-design{
+    position: absolute;
+    margin: 85px 0 0 85px;
+}
+.option-2 .design-2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: 110px 0 0 65px;
+}
+.option-2 .design-3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: 110px 0 0 210px;
+}
+.option-2 .option-4{
+    position: absolute;
+}
+.option-2 .design-4{
+    position: absolute;
+}
+/* option coding end */
+/* ======================= */
+/* more-option section end */
+/* ======================= */
+
+/* ======================= */
+/* subscribe section start */
+/* ======================= */
+/* subscribe-sec coding start */
+.subscribe-sec{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(126, 79, 168);
+}
+/* subscribe-sec coding end */
+
+/* subscribe coding start */
+.subscribe{
+    position: relative;
+    text-align: center;
+}
+.subscribe .subscribe-design{
+    top: -33px;
+    left: 630px;
+    width: 60px;
+    position: absolute;
+}
+.subscribe h1{
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-style: italic;
+    padding: 70px 0 5px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.subscribe h5{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 8px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.subscribe p{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-family: 'poppins' , sans-serif;
+}
+/* subscribe coding end */
+
+/* form coding start */
+form{
+    position: relative;
+}
+form input{
+    height: 45px;
+    width: 300px;
+    border-radius: 2px;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid #f1f1f1;
+}
+form .right-arrow{
+    top: 14px;
+    left: 790px;
+    color: #f1f1f1;
+    position: absolute;
+}
+input::placeholder{
+    color: #f1f1f1;
+}
+/* form coding end */
+/* ===================== */
+/* subscribe section end */
+/* ===================== */
+
+/* =================== */
+/* offer section start */
+/* =================== */
+/* offer-sec coding start */
+.offer-sec{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(219, 182, 227);
+}
+.top{
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),calc(50% + 50px) calc(100% - 50px),50% 100%,calc(50% - 50px) calc(100% - 50px),0 calc(100% - 50px));
+}
+/* offer-sec coding end */
+
+/* offer coding start */
+.offer{
+    width: 100%;
+    display: flex;
+}
+/* offer coding end */
+
+/* offer-text coding start */
+.offer-text{
+    width: 620px;
+    display: flex;
+    height: 700px;
+    margin: 0 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer-text h6{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'poppins' , sans-serif;
+}
+.offer-text h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'poppins' , sans-serif;
+}
+.offer-text p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-transform: unset;
+    font-family: 'poppins' , sans-serif;
+}
+.offer-text a{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    color: #7b59ab;
+    line-height: 40px;
+    text-align: center;
+    background: #ffffff;
+    text-transform: uppercase;
+    font-family: 'poppins' , sans-serif;
+}
+.offer-text a:hover{
+    color: #7b59ab;
+    background: #ffffff;
+}
+/* offer-text coding end */
+
+/* offer-image coding start */
+.offer-image{
+    width: 620px;
+    height: 700px;
+    margin: 0 10px;
+    position: relative;
+}
+.offer-image .image-offer{
+    width: 420px;
+    margin: 78px 0 0 86px;
+    border: 15px solid #fff;
+}
+.offer-image .design{
+    top: 25px;
+    right: 15px;
+    position: absolute;
+}
+.offer-image .offer-design{
+    left: 55px;
+    width: 80px;
+    bottom: 100px;
+    position: absolute;
+}
+/* offer-image coding end */
+/* ================= */
+/* offer section end */
+/* ================= */
+
