@@ -13,7 +13,9 @@ This project is a modern landing page for a beauty/cosmetics brand. It demonstra
 - **HTML5:** For semantic and organized structure.
 - **CSS3:** For advanced styling, positioning, and responsive layouts.
 
-## Live Demo: https://shrufaiya99.github.io/glam-beauty-ui-design/
+🔗 Live Demo:
+Check out the live project here: 
+https://shrufaiya99.github.io/glam-beauty-ui-design/
 
 ---
 *Created as a high-fidelity frontend practice to master CSS fundamentals.*
